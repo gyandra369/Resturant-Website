@@ -1,22 +1,148 @@
+body{
+  margin: 0px
+
+}
+#topNav{
+background-color: Goldenrod;
+height: 10%;
+margin: 0px;
+border: 2px;
+border: 2px solid maroon;
+}
 
 #topNav li{
    text-decoration: none;
    display: inline;
    float: right;
-   padding: 15px;
-}
+   padding-right: 25px;
+   border-left: 3px solid white;
+   border-right: 1px solid white;
+   }
 
 #topNav li:hover{
-  background-color: black;
+  background-color: Maroon;
 }
 
 #topNav li a{
    text-decoration: none;
    font-family: monospace;
-   font-size: 45px;
-   color: orange;
+   font-size: 40px;
+   color: white;
 }
 
 #topNav li a:hover{
-  color: yellow;
+  color: Black;
+}
+
+#menuNav{
+    background-color: Maroon;
+    height: 150%;
+    width: 100px;
+    margin: 0px;
+    float: left;
+    border-right: 2px solid Goldenrod;
+    padding-left: 0px;
+}
+
+#menuNav li{
+  list-style: none;
+  font-size: 15px;
+  padding: 15px;
+  padding-bottom: 20px;
+  color: White;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+#menuNav li:hover{
+  background: Goldenrod;
+}
+
+#menuNav li a{
+  font-family: monospace;
+  color: Goldenrod
+}
+
+#menuNav li a:hover{
+  color: White
+}
+
+#indexTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#Indexdes{
+  font-size: 20px;
+  color:Goldenrod;
+}
+
+#infoTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#infodes{
+  font-size:20px;
+  color: Goldenrod;
+}
+
+#findTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#finddes{
+  font-size: 20px;
+  color: Goldenrod;
+}
+
+#friesTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#friesdes{
+  font-size: 20px;
+  color: Goldenrod;
+}
+
+#PizzaTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#Pizzades{
+  font-size: 20px;
+  color: Goldenrod;
+}
+
+#SpaghettiTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#Spaghettides{
+  font-size: 20px;
+  color: Goldenrod;
+}
+
+#SpicyVeggiePastaTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#SpicyVeggiePastades{
+  font-size: 20px;
+  color: Goldenrod;
+}
+
+#TiramisuTitle{
+  font-size: 30px;
+  color: maroon;
+}
+
+#Tiramisudes{
+  font-size: 20px;
+  color: Goldenrod;
 }
